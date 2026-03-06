@@ -26,6 +26,7 @@
     height: 24px;
     margin-left: 24px;
     margin-right: 24px;
+    cursor:pointer;
   }
   
   .youtube-logo {
@@ -158,5 +159,38 @@
   
   .current-user-picture {
     height: 32px;
+    width:30px;
     border-radius: 16px;
   }
+@media (max-width: 768px) {
+
+  .middle-section {
+    margin-left: 20px;
+    
+  }
+
+  .right-section {
+    width: 90px;
+  }
+  .notifications-icon-container{
+    margin-right:0px
+
+  }
+
+  .youtube-apps-icon,
+  .upload-icon-container {
+    display: none
+  }
+
+  .search-button {
+    width: 50px;
+
+  }
+
+  .current-user-picture {
+  height: 30px;
+    width:32px;
+    border-radius: 50%;
+  }
+  
+}
